@@ -4,6 +4,11 @@ Ce projet consiste à développer des serveurs et des clients en utilisant trois
 ## Structure du projet
 Le projet est organisé en trois modules :
 
+Module gRPC : Contient le service de messagerie implémenté avec gRPC.
 Module RMI : Contient le service de messagerie implémenté avec RMI.
 Module Socket : Contient le service de messagerie implémenté avec des sockets.
-Module gRPC : Contient le service de messagerie implémenté avec gRPC.
+
+### Déploiement et test de chaque service
+Lancer l'environnement d'execution en accédant au répertoire de chaque module 
+lancer le serveur et le client 
+tester 
