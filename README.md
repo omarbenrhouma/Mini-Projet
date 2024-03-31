@@ -9,6 +9,6 @@ Le projet est organisé en trois modules :
 *Module Socket : Contient le service de messagerie implémenté avec des sockets.  
 
 ### Déploiement et test de chaque service
--lancer l'environnement d'execution en accédant au répertoire de chaque module 
--lancer le serveur et le client 
--tester 
+-lancer l'environnement d'execution en accédant au répertoire de chaque module.  
+-lancer le serveur et le client.  
+-tester.  
