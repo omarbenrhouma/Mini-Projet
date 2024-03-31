@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Grpc-V3/Grpc-V3.iml" filepath="$PROJECT_DIR$/Grpc-V3/Grpc-V3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mini_Projet.iml" filepath="$PROJECT_DIR$/Mini_Projet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RMI/RMI.iml" filepath="$PROJECT_DIR$/RMI/RMI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Socket/Socket.iml" filepath="$PROJECT_DIR$/Socket/Socket.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+option java_package = "org.example";
+
+// Définition du message pour un message texte
+message TextMessage {
+  string id = 1;
+  string sender_id = 2;
+  string recipient_id = 3;
+  string text = 4;
+  // Ajoutez d'autres champs selon vos besoins, comme la date d'envoi, les pièces jointes, etc.
+}
+
+// Définition du service de messagerie
+service MessagingService {
+  // RPC pour envoyer un message texte à un destinataire spécifié
+  rpc SendMessage(TextMessage) returns (SendMessageResponse) {}
+
+  // RPC pour récupérer les messages reçus pour un utilisateur donné
+  rpc GetReceivedMessages(GetReceivedMessagesRequest) returns (stream TextMessage) {}
+}
+
+// Message de demande pour récupérer les messages reçus pour un utilisateur donné
+message GetReceivedMessagesRequest {
+  string user_id = 1;
+}
+
+// Réponse de l'envoi de message
+message SendMessageResponse {
+  string message_id = 1;
+  bool success = 2;
+  string message_text = 3;
+}
